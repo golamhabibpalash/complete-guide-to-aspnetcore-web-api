@@ -18,15 +18,15 @@ namespace my_books.Controllers
         {
             _booksService = booksService;
         }
-        [HttpGet("get-all-merit-student")]
-        public IActionResult GetAllMeritStudent()
+        [HttpGet("get-all-books")]
+        public IActionResult GetAllBooks()
         {
             var stu = _booksService.GetAllBooks();
             return Ok(stu);
         }
 
-        [HttpGet("get-student-by-id/{id}")]
-        public IActionResult GetMeritStudentById(int id)
+        [HttpGet("get-book-by-id/{id}")]
+        public IActionResult GetBookById(int id)
         {
             var stu = _booksService.GetById(id);
             return Ok(stu);
