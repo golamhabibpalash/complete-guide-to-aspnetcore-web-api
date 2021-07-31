@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\golam\\source\\repos\\my-books\\my-books\\my-books.csproj": {}
+    "C:\\Users\\habib\\Source\\Repos\\golamhabibpalash\\complete-guide-to-aspnetcore-web-api\\my-books\\my-books.csproj": {}
   },
   "projects": {
-    "C:\\Users\\golam\\source\\repos\\my-books\\my-books\\my-books.csproj": {
+    "C:\\Users\\habib\\Source\\Repos\\golamhabibpalash\\complete-guide-to-aspnetcore-web-api\\my-books\\my-books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\golam\\source\\repos\\my-books\\my-books\\my-books.csproj",
+        "projectUniqueName": "C:\\Users\\habib\\Source\\Repos\\golamhabibpalash\\complete-guide-to-aspnetcore-web-api\\my-books\\my-books.csproj",
         "projectName": "my-books",
-        "projectPath": "C:\\Users\\golam\\source\\repos\\my-books\\my-books\\my-books.csproj",
-        "packagesPath": "C:\\Users\\golam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\golam\\source\\repos\\my-books\\my-books\\obj\\",
+        "projectPath": "C:\\Users\\habib\\Source\\Repos\\golamhabibpalash\\complete-guide-to-aspnetcore-web-api\\my-books\\my-books.csproj",
+        "packagesPath": "C:\\Users\\habib\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\habib\\Source\\Repos\\golamhabibpalash\\complete-guide-to-aspnetcore-web-api\\my-books\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\golam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\habib\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,9 +40,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "microsoft.entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
